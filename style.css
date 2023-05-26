@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.header{
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+#signup{
+    border: 1px solid #F53855;
+    margin-left: 30px;
+    color: #F53855;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 50px;
+
+}
+#top-menu{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    column-gap: 40px;
+    color:blueviolet ;
+    font-weight: 400;
+}
