@@ -76,3 +76,56 @@ button{
 img{
     max-width: 100%;
 }
+.service-overview{
+    display: flex;
+    width: 100%;
+   margin-top: 100px;
+   box-shadow:0 100px 100px 1px rgb(211, 209, 209) ;
+   border-radius: 10px;
+}
+.one,.two,.three{
+    width: 33.3%;
+   
+  padding:40px;
+  text-align: center;
+  display: flex;
+  column-gap: 15px;
+
+
+}
+ h4,p{
+    margin: 0;
+ }
+ p{
+    margin:10px ;
+ }
+.service-overview i {
+    color: red;
+   padding: 15px;
+   border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 60px;
+}
+.feature>div{
+flex-basis: 50%;
+}
+.feature ul{
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    list-style: none;
+}
+.feature i{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+.feature li{
+    margin-bottom: 10px;
+}
