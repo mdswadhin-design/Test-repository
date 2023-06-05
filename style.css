@@ -61,7 +61,7 @@ margin-right: auto;
 .left p{
     color: blue;
 }
-button{
+.hero-button{
     color:white;
     background-color: #F53855;
     border: none;
@@ -110,6 +110,7 @@ img{
     align-items: center;
     justify-content: center;
     column-gap: 60px;
+    margin-top: 60px;
 }
 .feature>div{
 flex-basis: 50%;
@@ -128,4 +129,108 @@ flex-basis: 50%;
 }
 .feature li{
     margin-bottom: 10px;
+}
+.pricing{
+    margin-top: 120px;
+}
+.pricing h1,.pricing p{
+    text-align: center;
+}
+.pricing-boxes{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+     
+}
+.box{
+    flex-basis: 33.33%;
+    background-color: white;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 100px;
+    border: 2px solid gray;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.box.active{
+    border: 2px solid red;
+}
+.box h3{
+text-align: center;
+}
+.box ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.box ul li{
+    margin-bottom: 20px;
+    color: #4F5665;
+}
+.pricing-button{
+    color: red;
+    font-weight: bold;
+    background-color: white;
+    font-size:18px ;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.pricing-button.active{
+    border: 2 px solid white;
+    background-color: red;
+    color: white;
+}
+.network{
+    margin-top: 100px;
+
+}
+.network h1 p{
+    text-align: center;
+}
+.network img{
+    margin-top: 100px;
+}
+.user{
+    display: flex;
+ justify-content: space-between;
+ column-gap: 30px;
+    margin-top: 100px;
+}
+footer{
+    display: flex;
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    color:#4F5665 ;
+    background-color:#F8F8F8 ;
+    padding: 50px;
+}
+footer .about{
+    flex-basis: 40%;
+
+}
+footer .nevigation{
+    flex-basis: 20%;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 20px;
+    margin-right: 110px;
+    
+}
+footer ul a{
+    font-weight: 400;
+    color: #4F5665;
 }
